@@ -1,0 +1,25 @@
+css
+/*paragraph*/
+p {
+  margin - bottom :15px;
+  font - size:18px;
+  font - color: yellow;
+}
+
+body{
+color:blue;
+}
+
+h1{
+  color:green;}
+
+h2{
+color:pink;}
+
+h3{
+color:red;}
+
+p{
+color: green;
+font-size: 15px;
+}

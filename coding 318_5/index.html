@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> The Website </title>
+<link rel="icon" type = "png" href="pumpkin-pie.png">
+
+
+<nav class="navbar">
+  <a href="background.html">Background</a>
+  <a href="achievements.html">Achievements</a>
+  <a href="gallery.html">The Gallery</a>
+  <a href="contact.html">Contact Us</a>
+</nav>
+<center>
+
+<style>
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  padding: 20px 30px;
+}
+
+body {
+      background-color: #F7F3EA;}
+
+h1{
+   font - family:Times New Roman;
+   color:#302820;}
+</style>
+</head>
+
+<body> 
+<h1> A thought to remember </h1>
+<p>  "Power is important, but power in clean hands can solve problems. 
+      That is why the people must be careful about whom they entrust with 
+      power."
+<br><br>- Hannah Yeoh, 2026 - </p>
+<br>
+<br>
+<br>
+<br> 	
+<br>
+<p2> More than a name. </p2>
+<p3> A voice that inspires. </p3>
+<p4> A story to discover. </p4>
+<br> <a href="background.html"> Click Here </a>
+
+
+<script>
+function updateDateTime() {
+    const now = new Date();
+
+    document.getElementById("date").textContent =
+        now.toLocaleDateString("en-GB", {
+            weekday: "short",
+            day: "numeric",
+            month: "short",
+            year: "numeric",
+            timeZone: "Asia/Kuala_Lumpur"
+        });
+
+    document.getElementById("time").textContent =
+        now.toLocaleTimeString("en-US", {
+            hour: "numeric",
+            minute: "2-digit",
+            hour12: true,
+            timeZone: "Asia/Kuala_Lumpur"
+        }) + " (Malaysia Time)";
+}
+
+updateDateTime();
+setInterval(updateDateTime, 1000);
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
